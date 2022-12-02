@@ -1,0 +1,33 @@
+.baato-geocoder{
+    border: 1px solid #666;
+    border-radius: 8px;
+    padding: 4px;
+    width: 220px;
+  }
+  
+  .baato-geocoder-results {
+    background: #fff;
+    z-index: 1000;
+    font-size: 14px;
+    overflow: auto;
+  }
+  
+  .baato-geocoder-results > div {
+    padding: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  
+  .baato-geocoder-results > div:hover,
+  .baato-geocoder-results > div.selected {
+    background: #eee;
+  }
+ 
+  .baato-geocoder-results .result-address {
+    font-size:.7em;
+    color:#aaa;
+    display:block;
+    width:100%;
+  }
