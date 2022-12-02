@@ -1,7 +1,7 @@
 {
-  "name": "baato-js-geocoder",
-  "version": "1.0.2",
-  "main": "index.js",
+  "name": "@baatomaps/baato-js-geocoder",
+  "version": "1.0.6",
+  "main": "./dist/baato-js-geocoder.js",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --content-base demo --mode development --hot --inline",
