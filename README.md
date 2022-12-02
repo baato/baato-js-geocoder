@@ -1,6 +1,6 @@
 # Baato JS Geocoder
 
-JS Plugin to Geocode search query with autocompetion feature. Also provides searchbox UI.
+A JS Plugin to Geocode search query with autocompetion feature. Also provides searchbox UI.
 
 # Usage
 
