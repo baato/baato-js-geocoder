@@ -10,7 +10,7 @@ module.exports = (env, options) => {
             ]
         },
         output: {
-            path: __dirname + '/build',
+            path: __dirname + '/dist',
             filename: '[name].js',
             library: 'baatojsgeocoder'
         },
