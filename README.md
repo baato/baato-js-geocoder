@@ -1,5 +1,8 @@
 # Baato JS Geocoder
 
+![Build](https://github.com/baato/baato-js-geocoder/actions/workflows/baato-js-geocoder.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 A JS Plugin to Geocode search query with autocompetion feature. Also provides searchbox UI.
 
 # Usage
@@ -22,7 +25,7 @@ A JS Plugin to Geocode search query with autocompetion feature. Also provides se
 - Attach an event handler for the SearchBar.
 
 ```
-// attach event handler for the search bar. This is fired as we type on the search bar
+// attach event handler for the search bar. This is fired when we select one of the search results.
 searchBar.geocoder.on('select', function (result) {
     searchByPlaceId(result.placeId);
 });
