@@ -1,6 +1,6 @@
 # Baato JS Geocoder
 
-![Build](https://github.com/baato/baato-js-geocoder/actions/workflows/baato-js-geocoder.yml/badge.svg)
+![Build](https://github.com/baato/baato-js-geocoder/actions/workflows/baato_js_geocoder.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A JS Plugin to Geocode search query with autocompetion feature. Also provides searchbox UI.
