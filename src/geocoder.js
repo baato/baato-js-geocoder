@@ -51,6 +51,9 @@ export class Geocoder extends EventEmitter {
                 this.emit('select', result);
             },
             render: (result) => {
+                let iconElement = document.createElement('span');
+                iconElement.className = 'pushpin';
+
                 let nameElement = document.createElement('span');
                 nameElement.className = 'result-name';
                 nameElement.textContent = result.name;
@@ -60,7 +63,7 @@ export class Geocoder extends EventEmitter {
                 addressElement.textContent = result.address;
 
                 const resultElement = document.createElement('div');
-                resultElement.append(nameElement, addressElement);
+                resultElement.append(iconElement, nameElement, addressElement);
 
                 resultElement.addEventListener('mouseover', (e) => {
                     this.emit('hover', result);
