@@ -105,7 +105,8 @@ export class SearchBar {
         this._container = document.createElement('div');
         this._container.className = 'maplibregl-ctrl';
         const _input = document.createElement('input');
-        _input.placeholder = "Search here for places...";
+        _input.type = "search";
+        _input.placeholder = "Search here for places";
         this._container.appendChild(_input);
 
         this.geocoder = new Geocoder({

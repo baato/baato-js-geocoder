@@ -1,6 +1,6 @@
 {
   "name": "@baatomaps/baato-js-geocoder",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./dist/baato-js-geocoder.js",
   "license": "MIT",
   "scripts": {
